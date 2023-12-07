@@ -61,7 +61,7 @@ namespace Calculs
                                 }
                                 catch
                                 {
-                                    Console.WriteLine("erreur de saisie : veuillez saisir un nombre entier");
+                                    Console.WriteLine("erreur de saisie : veuillez saisir un nombe entier");
                                 }
                             }
                             break;
