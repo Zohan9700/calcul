@@ -30,6 +30,8 @@ namespace Calculs
                 Console.Write("Choix :                          ");
                 choix = Console.ReadLine();
                 // traitement des choix
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10);
                 if (choix != "0")
                 {
                     switch (choix)
@@ -37,8 +39,7 @@ namespace Calculs
                         case "1":
                             bool correct = false;
                             // choix de l'addition
-                            val1 = rand.Next(1, 10);
-                            val2 = rand.Next(1, 10);
+                           
                             // saisie de la réponse
                             while (!correct)
                             {
@@ -68,8 +69,7 @@ namespace Calculs
                         case "2":
                             bool correct2 = false;
                             // choix de la multiplication
-                            val1 = rand.Next(1, 10);
-                            val2 = rand.Next(1, 10);
+                           
                             // saisie de la réponse
                             while (!correct2)
                             {
